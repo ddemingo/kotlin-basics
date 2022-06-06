@@ -1,12 +1,15 @@
 # Kotlin
 
+
+```sh
+./install-gradle.sh
+gradle init
+```
+
 ## Gradle
 
 https://kotlinlang.org/docs/gradle.html
 
-```
-$ gradle init
-```
 
 ## VS Code
 
