@@ -6,7 +6,13 @@
 gradle init
 ```
 
+```sh
+./gradlew test
+```
+
 ## Gradle
+
+https://docs.gradle.org/current/samples/sample_building_kotlin_libraries.html
 
 https://kotlinlang.org/docs/gradle.html
 
@@ -17,7 +23,6 @@ https://kotlinlang.org/docs/gradle.html
 ctrl+shift+b
 
 ```
-ext install kotlin language
+ext install kotlin
 ```
 
-https://docs.gradle.org/current/userguide/gradle_wrapper.html
