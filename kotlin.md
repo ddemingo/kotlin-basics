@@ -26,3 +26,5 @@ ctrl+shift+b
 ext install kotlin
 ```
 
+TODO, maybe 
+https://dev.to/mwrpwr/learning-kotlin-programming-with-visual-studio-code-5e29
