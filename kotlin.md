@@ -1,4 +1,14 @@
-# VS Code
+# Kotlin
+
+## Gradle
+
+https://kotlinlang.org/docs/gradle.html
+
+```
+$ gradle init
+```
+
+## VS Code
 
 
 ctrl+shift+b
