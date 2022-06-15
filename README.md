@@ -26,5 +26,9 @@ ctrl+shift+b
 ext install kotlin
 ```
 
-TODO, maybe 
-https://dev.to/mwrpwr/learning-kotlin-programming-with-visual-studio-code-5e29
+Extension Gradle for Java
+Extension Pack for Java
+
+There is no alid JAVA_HOME setting to launch Gradle Language Server. Please check your "java.jdt.ls.java.home" setting
+
+java.jdt.ls.java.home  /usr/lib/jvm/jre-18-openjdk

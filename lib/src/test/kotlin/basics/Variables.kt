@@ -5,11 +5,7 @@ import kotlin.test.assertEquals
 
 class VariablesTest {
 
-    @Test
-    fun variables() {
-
-
-    }
+    @Test fun variables() {}
 }
 
 // https://hyperskill.org/learn/step/17408
@@ -26,11 +22,11 @@ class ValVariablesTest {
     fun variables_2() {
         var x = 10
         val y = x
-        assertEquals(y,10)
+        assertEquals(y, 10)
 
-        x= 20
-        assertEquals(y,10)
-        assertEquals(x,20)
+        x = 20
+        assertEquals(y, 10)
+        assertEquals(x, 20)
     }
 
     @Test
@@ -38,7 +34,8 @@ class ValVariablesTest {
 
         // It is important to note that val is not a synonym of immutable.
 
-        // In the following example, we will use a MutableList, which is an ordered set of elements of the same type.
+        // In the following example, we will use a MutableList, which is an ordered set of elements
+        // of the same type.
 
         val list = mutableListOf(1, 2, 3, 4, 5)
         assertEquals(5, list.size)
@@ -46,9 +43,10 @@ class ValVariablesTest {
         assertEquals(6, list.size)
         assertEquals(10, list[5])
 
-        // It is always possible to change the internal state of a val variable: while it is prohibited to reassign
+        // It is always possible to change the internal state of a val variable: while it is
+        // prohibited to reassign
         // the variable, its content can be modified in some other ways.
 
-        //list = mutableListOf(11,12) // Val cannot be reassigned
+        // list = mutableListOf(11,12) // Val cannot be reassigned
     }
 }
